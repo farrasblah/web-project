@@ -11,13 +11,16 @@
 </head>
 <body>
 
-    <h1 class="point-judul">Tugas 1 : Buatlah aplikasi website sederhana dengan HTML</h1>
+    <div class="point-judul">
+        <h1>Tugas 1 : Buatlah aplikasi website sederhana dengan HTML</h1>
+        <p class="name">Farra Sabiilah Annajiihah</p>
+    </div>
 
     <div class="table">
 
         <h3>Table</h3>
 
-        <table border="1" cellspacing="0" cellpadding="5">
+        <table>
             <tr>
                 <th>No</th>
                 <th>Hari</th>
@@ -48,7 +51,7 @@
         <p>Unordered List</p>
         <p>Merupakan list yang tidak terurut, biasanya disimbolkan dengan titik atau yang lain</p>
 
-        <ul>
+        <ul class="choice">
             <li>Pilihan 1</li>
             <li>Pilihan 2</li>
             <li>Pilihan 3</li>
@@ -57,13 +60,13 @@
         <p>Ordered List</p>
         <p>Merupakan list terurut, biasanya disimbolkan dengan huruf atau angka</p>
 
-        <ol class="default">
+        <ol class="choice">
             <li>pilihan 1</li>
             <li>pilihan 2</li>
             <li>pilihan 3</li>
         </ol>
 
-        <ol class="custom" type="A">
+        <ol class="choice" type="A">
             <li>pilihan 1</li>
             <li>pilihan 2</li>
             <li>pilihan 3</li>
@@ -80,12 +83,12 @@
         <form class="form-list">
 
             <label for="username">Username :</label>
-            <input type="text" id="username">
+            <input class="input-field" type="text" id="username" placeholder="masukkan nama">
 
             <br>
 
             <label for="password">Password :</label>
-            <input type="password" id="password">
+            <input class="input-field" type="password" id="password" placeholder="password">
 
             <br>
 
@@ -118,26 +121,34 @@
 
     </div>
 
-    <div class="image">
+    <section class="gallery">
 
-        <h3>Gambar</h3>
+        <div class="image">
 
-        <img src="./image/kai.png" title="biasku" width="200px">
-    </div>
+            <h3>Gambar</h3>
 
-    <div class="video">
+            <ul>
+                <li><img src="./image/kai.png" title="biasku" width="210px"></li>
+                <li><img src="./image/th.jfif" width="210px"></li>
+                <li><img src="./image/th (1).jfif" width="210px"></li>
+            </ul>
 
-        <h3>Video</h3>
+        </div>
 
-        <video src="./image/video.mp4" width="200" autoplay controls></video>
-    </div>
+        <div class="video">
 
+            <h3>Video</h3>
+
+            <video src="./image/video.mp4" width="220" autoplay controls></video>
+        </div>
+
+    </section>
     
-    <div class="link">
+    <section class="link">
 
-        <h4>Link untuk pergi ke akun githubku ada <a href="https://github.com/farrasblah/web-project">disini</a>!!</h4>
+        <h4>Link untuk pergi ke akun githubku ada <a href="https://github.com/farrasblah/web-project"> disini</a>!!</h4>
 
-    </div>
+    </section>
         
 </body>
 </html>

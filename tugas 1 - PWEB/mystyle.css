@@ -1,28 +1,51 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
 
 .point-judul{
     background-color: #eeeee4;
     box-sizing: border-box;
+    padding: 10px;
     padding-block: 60px;
     border-top: 0;
     text-align:justify;
 }
 
 .table{
+    padding: 20px;
     padding-block: 60px;
-    background-color: #eeeee4;
+    background-color: #eeeee4
 }
 
-img{
-    border-radius: 10px;
-    margin-bottom: 20px;
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: justify;
 }
+
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    object-fit: cover;
+}
+
 
 .list {
      background-color: #eeeee4;
 }
 
 .form {
-    background-color: #eeeee4;
+    background-color: #eeeee4;   
 }
 
 .judul h1,
@@ -33,11 +56,76 @@ img{
 .judul h6
 {
     display: inline-block;
-    padding-bottom: 10px;
-    
+    padding: 10px;
+    margin: 20px;
 }
 
 .section-2 {
     background-color: #eeeee4;
     margin-bottom: 20px;
 }
+
+ul, ol {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.choice {
+    background-color: blanchedalmond;
+}
+
+li {
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+input {
+    width: fit-content;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.input-field {
+    display: block;
+    padding: 10px 20px;
+}
+
+div {
+    padding: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+video {
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:is(:hover) {
+    color: rgb(195, 121, 10);
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    background-color: #eeeee4;
+    height: 60px;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+    text-align: center;
+}
+
+
+
