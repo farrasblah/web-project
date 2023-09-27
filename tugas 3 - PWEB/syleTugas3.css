@@ -1,0 +1,151 @@
+
+/*
+    HEADER
+*/
+
+
+.header-top {
+    background-color: #3888FF;
+}
+
+.header-top .container{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-top ion-icon {
+    padding: 14px;
+}
+
+.wrapper p .helpline-location,
+.wrapper p .helpline-number,
+.wrapper p .helpline-email
+{ 
+    justify-content: center;
+    text-align: center;
+    font-size: smaller;
+}
+
+.header-bottom {
+    left: 0;
+    width: 100%;
+    height: min-content;
+  }
+
+
+
+.header-bottom .container { padding-block: 0;}
+
+.header-bottom .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-block: 15px;
+}
+
+.navbar-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.header-bottom .container .btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-bottom button {
+    border-radius: 25px;
+}
+
+.container-fluid {
+    font-size: 30px;
+    font-style: bold;
+}
+
+
+
+/*
+    MAIN
+*/
+
+.home .container h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button .btn-primary,
+.button .btn-outline-primary
+{
+    display: flex;
+    border-radius: 50px;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+.home {
+    padding: 50px;
+    display: flex;
+}
+
+.home .title-main {
+    padding-inline: 15px;
+    padding-top: 100px;
+    width: fit-content;
+    align-items: center;
+}
+
+.home .gallery {
+    padding-inline: 15px;
+    width: 500px;
+}
+
+.gallery img { 
+    border-radius: 25px;
+    width: fit-content;
+}
+
+img {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+/*
+    FOOTER
+*/
+
+.text-center .row {
+    padding: 30px;
+    font-family:"Poppins", sans-serif;
+    color: #767676;
+}
+
+.text-center .row .col-md-2:first-child{
+    display: flex;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-center .row .col-md-2:nth-child(5) {
+  font-weight: 750;
+  font-size: larger;
+}
+
+.text-center .row .col-md-2:nth-child(4), 
+.text-center .row .col-md-2:nth-child(6) {
+    text-transform: lowercase;
+  } 
